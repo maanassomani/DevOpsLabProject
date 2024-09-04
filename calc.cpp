@@ -2,7 +2,7 @@
 using namespace std;
 double add(double a , double b)
 {
-    return a  +b;
+    return a+b;
 }
 
 double subtract(double a, double b)
@@ -49,15 +49,19 @@ int main(){
         {
         case 1:
             cout<<"n1 + n2 = ";
+            cout << add(n1,n2) << "\n";
             break;
         case 2:
             cout<<"n1 - n2 = ";
+            cout << subtract(n1,n2) << "\n";
             break;
         case 3:
             cout<<"n1 * n2 = ";
+            cout << multi(n1,n2) << "\n";
             break;
         case 4:
             cout<<"n1 / n2 = ";
+            cout << divide(n1,n2) << "\n";
             break;
         default:
             cout<<"Invalid input"<<endl;
